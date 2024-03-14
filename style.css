@@ -1,0 +1,204 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width:100%;
+  min-height: 100vh;
+  background-color: #f1eee5;
+}
+/*-------------------------------------------------------------Announcement Bar------------------------------------------------------------------*/
+.bar{
+  width: 100%;
+  background-color: #c5d6ee;
+  height: 41.24;
+  display: flex; 
+  position: fixed;
+}
+.socialMedia{
+  padding-left: 48px;
+  padding-right: 48px;
+  margin-left: 140px;
+}
+.list{
+  display: flex;
+  width: 200px;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.list li a img{
+  filter: invert(60%) sepia(7%) saturate(3725%) hue-rotate(19deg) brightness(88%) contrast(84%);
+}
+.announcement{
+  
+  margin-left: 140px;
+}
+#deco{
+  text-decoration: none;
+}
+#stl{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 7px;
+  color: #938e2a;
+  font-weight: bolder;
+  font-size: 20px;
+}
+/*-----------------------------------------------------------------------Header-----------------------------------------------------------------*/
+header{
+  height: 250px;
+}
+.logo {
+  margin-top: 50px;
+  margin-left: 650px;
+}
+.menu{
+  margin-top: 20px;
+  margin-left: 630px;
+}
+.list-menu{
+  width: 201px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.stl2{
+  text-decoration: none;
+  color: rgb(167, 166, 166);
+  font-family:  Poppins, sans-serif;
+}
+.stl2:hover{
+  color: black;
+}
+.icons{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -150px;
+  margin-right: 160px;
+}
+.icons a{
+  margin-right: 30px;
+}
+.title{
+  margin: 0 177px;
+  display: flex;
+  justify-content: space-between;
+}
+.title h1{
+  font-size: 50px;
+  font-family:Poppins, sans-serif; 
+}
+.title a{
+  font-size: 16px;
+  font-family:Poppins, sans-serif;
+  color: #3B528ED9;
+  text-underline-offset: 4.8px;
+  margin-top: 25px;
+}
+/*----------------------------------------------------------------cart items---------------------------------------------------------------------*/
+.cart-page{
+  margin-top: 10px;
+  margin-left: 177px;
+  margin-right:100px;
+}
+table{
+  width:100%;
+  border-collapse: collapse;
+  
+}
+.top{
+  border-top: 3px solid rgb(161 158 159);
+  border-width: 2px;
+}
+
+.cart-info{
+  
+  display: flex;
+  flex-wrap: wrap;
+}
+th{
+  text-align: left;
+  padding: 5px;
+  color: rgb(161 158 159);
+  font-family: Poppins, sans-serif;
+  font-size:15px;
+  font-weight: normal;
+}
+td{
+  padding:10px 5px;
+}
+td input{
+  width:100px;
+  height: 35px;
+  padding: 5px 5px 5px 0;
+  border-radius: 11px;
+  border-color: rgb(161 158 159);
+  
+}
+td a{
+  color: #3b528e;
+  font-size: 12px;
+}
+td img{
+  width: 115px;
+  height: 115px;
+  margin-right: 25px;
+}
+
+.total-price{
+  display: flex;
+  justify-content:flex-end;
+  border-top: 3px solid rgb(161 158 159);
+  width: 100%;
+  border-width: 2px;
+  margin-top: 25px;
+}
+.tot{
+ 
+  font-size: 20px;
+  font-family:Poppins, sans-serif; 
+  font-weight: bolder;
+ letter-spacing: 2px;
+  
+}
+.btn{
+  width: 35px;
+  height: 35px;
+  padding: 5px 5px 5px 0;
+  border-radius: 11px;
+  background-color: white;
+  border-color: rgb(161 158 159);
+} 
+.remove-product {
+  color: #3b528e;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+  font-family: Poppins, sans-serif; ;
+}
+.like-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+}
+
+.like-btn i {
+  font-size: 2rem;
+  color: #ccc;
+  transition: color 0.3s ease;
+}
+
+.like-btn.liked i {
+  color: #e60164;
+}
+
+
+
+
